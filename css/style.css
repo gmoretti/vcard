@@ -13,8 +13,7 @@ body{
 }
 
 .subtitle{
-  font-family: 'Arial', sans-serif;
-  font-style: italic;
+  font-family: 'Ubuntu Mono', monospace;
   text-align: center;
   font-size: 1.5em;
   color: #6C7A89;
