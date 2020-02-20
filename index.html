@@ -4,20 +4,22 @@
     <link rel="stylesheet" href="css/style.css" media="screen" title="no title" charset="utf-8">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:700" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Ubuntu+Mono&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Fira+Mono&display=swap" rel="stylesheet">
 
     <meta charset="utf-8">
     <title>Giuseppe Moretti</title>
   </head>
   <body>
+
     <div class="container">
       <img id="profile" src="img/profile.png" alt="Me!" />
       <h1 id="mainTitle">giuseppe moretti</h1>
       <div class="subtitle">software engineer</div>
       <div class="contactLinks">
-        <img class="contactLink" src="/img/linkedIn.png" alt="" />
-        <img class="contactLink" src="/img/gplus.png" alt="" />
-        <img class="contactLink" src="/img/twitter.png" alt="" />
-        <img class="contactLink" src="/img/skype.png" alt="" />
+        <a href="https://www.linkedin.com/in/giuseppemc/" class="socialNetworkLink">linkedin</a>
+        <a href="https://twitter.com/gmoretti" class="socialNetworkLink">twitter</a>
+        <a href="https://blog.morettigiuseppe.com/" class="socialNetworkLink">blog</a>
+        <a href="https://github.com/gmoretti" class="socialNetworkLink">github</a>
       </div>
       <footer>
         <p class="love">handcrafted with <span id="heart">&#10084;</span> by gmoretti.</p>
@@ -25,4 +27,12 @@
     </div>
 
   </body>
+  <script>
+    document.write(
+      '<script src="http://' +
+        (location.host || '${1:127.0.0.1}').split(':')[0] +
+        ':${2:8080}/livereload.js?snipver=1"></' +
+        'script>'
+    );
+  </script>
 </html>

@@ -27,18 +27,21 @@ body{
 }
 
 .contactLinks{
+  margin-top: 3em;
   display: block;
   text-align: center;
-  padding-left: 2.5em;
 }
 
-.contactLink{
-  margin-top: 3em;
-  padding-right: 3em;
+.socialNetworkLink{
+  font-family: 'Fira Mono', monospace;
+  padding-left: 0.5em;
+  padding-right: 0.5em;
+  font-size: 1.7em;
+  color: black;
 }
 
 footer {
-  position:absolute;
+  position: fixed;
   bottom:0;
   width:100%;
   height:60px;   /* Height of the footer */
